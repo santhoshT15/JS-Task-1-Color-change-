@@ -1,0 +1,148 @@
+body{
+    align-items: center;
+}
+
+#header{
+    background-color: #f0f0f0;
+    text-align: center;
+    margin: auto;
+    width: 350px;
+}
+#outer{
+    margin: auto;
+    border-color: black;
+    border-style: solid;
+    width: 300px;
+    height: 300px;
+}
+#inner{
+    margin: 45px;
+    background-color: #fff;
+    border-color: black;
+    border-style: solid;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+#btn{
+    margin: auto;
+    width: 300px;
+    padding: 0 0 50px;
+    align-items: center;
+    margin-top: 20px;
+}
+#input{
+    margin: auto;
+    width: 300px;
+    height: 30px;
+}
+#color{
+    margin: auto;
+    width: 300px;
+    text-align: center;
+    height: 30px;
+}
+
+#green {
+    display: inline-block;
+    padding: 5px 15px;
+    font-size: 18px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+#green:hover {
+    background-color: #025a15;
+}
+
+#green:active {
+    background-color: #025a15;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+#red {
+    display: inline-block;
+    padding: 5px 15px;
+    font-size: 18px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #f44336;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+#red:hover {
+    background-color: #b80606;
+}
+
+#red:active {
+    background-color: #b80606;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+#blue {
+    display: inline-block;
+    padding: 5px 15px;
+    font-size: 18px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #008CBA;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+#blue:hover {
+    background-color: #003bba;
+}
+
+#blue:active {
+    background-color: #003bba;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+#reset {
+    display: inline-block;
+    padding: 5px 15px;
+    font-size: 18px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #080707;
+    background-color: #eee6e6;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+#reset:hover {
+    background-color: #8f8e8e;
+}
+
+#reset:active {
+    background-color: #8f8e8e;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+#cred{
+    margin: auto;
+    width: 300px;
+}
